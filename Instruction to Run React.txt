@@ -1,0 +1,7 @@
+To run the React App, run the following commands,
+	
+      1) npm install 
+	   this command install the node modules and then,
+
+      2) npm start
+       	   this command opens the React App to the browser on the http://localhost:3000 URL
