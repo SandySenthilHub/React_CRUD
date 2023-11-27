@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body{
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* firstPage */
+.index{
+  text-align:center;
+  box-shadow: 2px 2px 5px 2px grey;
+  border-radius:40px;
+  margin:3% auto;
+  width:55%;
+  height:600px;
+  
+}
+.index h1{
+  margin:2% 2%;
+  font-size:45px;
+}
+.index h1 b{
+  font-size:50px;
+  color:red;
+
+}
+.iul{
+border:1px solid red;
+width:40%;
+margin:-2% auto auto auto;
+}
+.indexBtn{
+  border-radius:20px;
+  box-shadow: 2px 2px 5px 2px grey;
+  margin:3% 10%;
+  padding-top:2%;
+}
+.content b{
+  color:red;
+  letter-spacing:2px;
+  text-transform:uppercase;
+  
+}
+.indexBtn button{
+  border:none;
+  font-size:20px;
+  margin:-1% auto 4% auto;
+  background:transparent;
+  box-shadow: 2px 2px 5px 2px grey;
+  border-radius:10px;
+  height:35px;
+  width:90px;
+
+}
+
+.crebtn:hover{
+  background-color:green;
+  color:white;
+}
+.readbtn:hover{
+  background-color:blue;
+  color:white;
+}
+.upbtn:hover{
+  background-color:yellow;
+}
+.delbtn:hover{
+  background-color:red;
+  color:white;
+}
+
+/* CREATE, UPDATE */
+.create,.update{
+  text-align: center;
+  height:500px;
+  width:70%;
+  margin:auto auto;
+}
+
+.update h1,
+.create h1{
+  margin-top: 1%;
+}
+.create h1 b,
+.update h1 b{
+  color:red;
+}
+.ul{
+  border:1px solid red;
+  width:30%;
+  margin:-18px auto;
+}
+.create Form,
+.update Form{
+  box-shadow: 2px 2px 5px 2px grey;
+  width:60%;
+  border-radius: 10px;
+  /* height:90%; */
+  margin: 4% auto;
+  padding: 2%;
+}
+
+.create Form label,
+.update Form label{
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.create Form input,
+.update Form input
+{
+  border-radius: 10px;
+  height:30px;
+  box-shadow: 2px 2px 5px 2px grey;
+  border:none;
+  width:250px;
+  padding-left: 15px;
+  margin: 1% 0 3% 0 ;
+}
+
+.create Form button,
+.update Form button{
+  border:none;
+  background:transparent;
+  box-shadow: 2px 2px 5px 2px grey;
+  border-radius: 10px;
+  padding: 10px;
+  color:red;
+  cursor: pointer;
+}
+.create Form button:hover,
+.update Form button:hover{
+  background-color: rgb(238, 20, 20);
+  color:white;
+}
+
+
+/* VIEW */
+.View{
+  box-shadow: 2px 2px 5px 2px grey;
+  border-radius:10px;
+  height:600px;
+  width:90%;
+  margin:auto auto;
+  /* padding:5px; */
+
+}
+.Inner{
+  text-align: center;
+ }
+
+.viewTable{
+  border-collapse: collapse;
+  margin:7% auto;
+  border: 1px solid;
+  box-shadow: 2px 2px 5px 2px grey;
+
+
+
+}
+.viewTable th{
+  border: 1px solid  rgb(192, 180, 180);
+  text-align:start;
+  padding-left:10px;
+  height:70px;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.id{
+  width:50px;
+}
+
+  .name,.add{
+  width:200px;
+}
+.country,.code,.city,.actions{
+  width:150px;
+}
+
+.viewTable tr{
+  border: 1px solid rgb(192, 180, 180) ;
+  height: 60px;
+
+}
+
+.viewTable td{
+  border: 1px solid  rgb(192, 180, 180);
+  font-size:20px;
+  text-align:start;
+  padding-left:5px;
+
+
+}
+
+.viewTable td button{
+
+border: 1px solid  rgb(192, 180, 180);
+cursor: pointer;
+border-radius: 10px;
+background: transparent;
+font-size: 35px;
+/* padding: 5px; */
+
+}
+.edit{
+color:rgb(4, 105, 4);
+}
+.del{
+  color: rgb(245, 70, 70);
+}
+
+.search{
+  float: right;
+  margin-right:5%;
+  height:35px;
+  width:250px;
+  border:1px solid grey;
+  border-radius: 10px;
+  text-align: end;
+}
+.icon{
+  float: right;
+  margin-right: -22px;
+  margin-top: 12px;
+
+}
+.Inner h3{
+  text-align: start;
+  margin: -50px 70px;
+}
+.Inner h3 b{
+  color: rgb(238, 20, 20);
+
+}
+.Inner h1{
+  padding-top:1%;
+  margin-bottom: -40px;
+  font-size: 38px;
+
+}
+
+.Inner h1 b{
+  color: rgb(238, 20, 20);
+  font-size: 38px;
+  text-transform: capitalize;
+
+}
+.pg{
+  margin:40px 80px;
+  float:right;
+
+}
+
+.pg button{
+  border:none;
+  margin-left: 20px;
+  background:none;
+  height:40px;
+  border-radius:25px;
+  width:40px;
+  font-size: 20px;
+}
+
+.pg button:hover{
+  background-color:rgb(238, 20, 20);
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
